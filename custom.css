@@ -1,0 +1,71 @@
+.navigationPanel {
+    padding: 8px;
+    background: rgb(55 55 55 / 70%);
+}
+
+#button-navigation-back, #button-navigation-forward, #button-navigation-plus, #button-navigation-graph, #button-navigation-search, #button-navigation-profile {
+    border-radius: 8px;
+}
+
+.block.blockCover {
+    border-radius: 16px;
+}
+
+.blocks .block .wrapContent.bgColor {
+    border-radius: 8px;
+}
+
+.header .tabs .tab.active {
+    border-radius: 10px;
+    background-color: rgb(41, 41, 41);
+    height: 30px;
+    border-width: 0px;
+}
+
+body {
+    font-family: 'SN Pro';
+}
+
+.ReactVirtualized__List {
+    padding: 0px 8px 12px 8px;
+}
+
+#sidebar {
+    margin: 20px;
+    border-radius: 16px;
+}
+
+.sidebar.fixed {
+    height: calc(100% - 40px) !important;
+}
+
+#page {
+    margin: 20px 20px 20px 40px;
+    background-color: #171717;
+    border-radius: 16px;
+}
+
+#header {
+    border-radius: 20px;
+    margin: 20px 40px 20px 60px;
+    padding: 0px 5px;
+    width: 40rem;
+}
+
+#button-header-sync {
+    border-radius: 20px;
+}
+
+#root {
+    background: radial-gradient(at 9% 91%, hsla(201,63%,70%,1) 0px, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(138,63%,70%,1) 0px, transparent 50%), 
+    radial-gradient(at 29% 76%, hsla(326,100%,80%,1) 0px, transparent 50%), 
+    radial-gradient(at 93% 76%, hsla(54,79%,75%,1) 0px, transparent 50%), 
+    radial-gradient(at 7% 30%, hsla(245,79%,70%,1) 0px, transparent 50%), 
+    radial-gradient(at 46% 11%, hsla(253,79%,69%,1) 0px, transparent 50%), 
+    radial-gradient(at 69% 29%, hsla(27,76%,64%,1) 0px, transparent 50%), 
+    radial-gradient(at 81% 94%, hsla(332,64%,69%,1) 0px, transparent 50%), 
+    radial-gradient(at 19% 9%, hsla(331,79%,61%,1) 0px, transparent 50%), 
+    radial-gradient(at 80% 60%, hsla(318,61%,74%,1) 0px, transparent 50%);
+    background-attachment: fixed;
+}
