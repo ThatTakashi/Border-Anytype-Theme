@@ -30,13 +30,22 @@ body {
     padding: 0px 8px 12px 8px;
 }
 
-#sidebar {
+.sidebar {
     margin: 20px;
-    border-radius: 16px;
+    border-radius: 16px !important;
+    height: calc(100% - 40px) !important;
 }
 
 .sidebar.fixed {
     height: calc(100% - 40px) !important;
+}
+
+.sidebar>.inner {
+    border-radius: 16px !important;
+}
+
+#sidebarToggle {
+    margin-top: 20px;
 }
 
 #page {
@@ -49,7 +58,7 @@ body {
     border-radius: 20px;
     margin: 20px 40px 20px 60px;
     padding: 0px 5px;
-    width: 40rem;
+    width: 20rem !important;
 }
 
 #button-header-sync {
